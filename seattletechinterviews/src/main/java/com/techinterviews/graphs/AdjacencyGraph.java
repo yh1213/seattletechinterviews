@@ -2,6 +2,7 @@ package com.techinterviews.graphs;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 import java.util.Queue;
 
 
@@ -32,5 +33,18 @@ public class AdjacencyGraph {
 	public int shortestPath(int v1, int v2){
 		return -1;
 	}
+	
+	public List<Integer> topologicalSort(){
+		return null;
+	}
+	
+	/**
+	 * Calculate the degree of each vertex in the graph.
+	 * @return Map of vertex no => degree
+	 */
+	public Map<Integer,Integer> calculateGraphDegrees(){
+		return null;
+	}
+	
 
 }
